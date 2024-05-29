@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafalan Santri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hafalan Santri</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama Santri</th>
+                <th>Bacaan</th>
+                <th>Hafalan</th>
+                <th>Tugas Hafalan Tambahan</th>
+                <th>Tugas Muroja'ah</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Alzam Irawan</td>
+                <td>Ali Imran 154-157</td>
+                <td>Juz 27<br>Al Hadid 1-7</td>
+                <td>Al Hadid 8-10</td>
+                <td>Al Waqiah, Ar Rahman</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Akmal Sukma Nagara</td>
+                <td>Al Araf 22-30</td>
+                <td>Juz 29<br>Al Jin 1-10</td>
+                <td>Al Jin 11-13</td>
+                <td>Al Qalam, Al Mulk</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Randu Putra</td>
+                <td>Al Maidah 50</td>
+                <td>Juz 29<br>Al Mulk 8-9</td>
+                <td>Al Mulk 10-12</td>
+                <td>Al Qalam, Al Mulk</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Fathir Santosa</td>
+                <td>Ali Imran 110-115</td>
+                <td>Juz 29<br>Al Jin 1-6</td>
+                <td>Al Jin 7-9</td>
+                <td>Al Qalam, Al Mulk</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="footer">
+        Semoga hafalan para santri berjalan lancar dan penuh berkah!
+    </div>
+</body>
+</html>
